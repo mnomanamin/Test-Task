@@ -1,0 +1,199 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body{
+    font-weight: normal;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1510px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.template__category{
+    height: 100vh;
+}
+.blog__row{
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 30px;
+    padding: 60px 0px ;
+}
+.blogs__all-column{
+    width: calc(100% - 15px);
+    background-color: #ffffff;
+    border: 1px solid #DCDCDC;
+    padding: 15px 15px 20px 15px;
+    border-radius: 5px;
+}
+.archieve_template_wrapper .blogs__all-column.archieve__blog_all-Column{
+    width: 100%;
+    background-color: #ffffff;
+    border: 1px solid #DCDCDC;
+    padding: 15px 15px 20px 15px;
+    border-radius: 5px;
+}
+.latest__blogs-column{
+    width: calc(30% - 15px);
+    position: relative;
+}
+.blogs__side--sticky--bar{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+.latest__blogs--inner--wrapper{
+    background-color: #ffffff;
+    border: 1px solid #DCDCDC;
+    padding: 15px 15px 20px 15px;
+    border-radius: 5px;
+
+}
+.blogs__item-row{
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    row-gap: 10.68px;
+    column-gap: 15px;
+}
+.blogs__side--sticky--bar .newsLetter{
+    margin-top: 24px;
+}
+.blogs__all-column.archieve__blog_all-Column .blogs__item-row{
+    display: flex;
+    align-items: stretch;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    row-gap: 10.68px;
+    column-gap: 10.68px;
+}
+.blogs__item-column{
+    width: calc(33.33% - 10px);
+}
+.blogs__all-column.archieve__blog_all-Column .blogs__item-column{
+    width: calc(33.33% - 10px);
+}
+.blogs__item-wapper{
+    background-color: #8100dc24;
+    padding: 7.82px 8.2px 16.5px;
+    border-radius: 5px;
+    width: 100%;
+    display: block;
+}
+.blog__featured-img{
+    width: 100%;
+    height: 232.82px;
+    display: flex;
+}
+.blog__featured-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.blog__featured-info{
+    background-color: #ffffff;
+    padding: 6.75px 14px 12.25px;
+    box-shadow: 0px 4px 4px #00000040;
+    border-radius: 5px;
+    margin-top: 10.99px;
+}
+.blog__featured-info h3{
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+    margin-bottom: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+}
+.blog__featured-info p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #B6B6B6;
+    margin-bottom: 0px;
+}
+.latest__blogs-title h4{
+    font-size: 22px;
+    line-height: 27.5px;
+    letter-spacing: 0.16px;
+    color: #000000;
+    margin-bottom: 4.22px;
+}
+.latest__blogs-title ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+.latest__blogs-title ul li{
+    display: block;
+    padding: 31.07px 0px 27.84px;
+    border-bottom: 1px solid #EBEBEB;
+}
+.latest__blogs-title ul li:nth-last-child(1){
+    border-bottom: none;
+    padding-bottom: 0px;
+}
+.latest__blogs-title ul li a{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.latest__blog-img{
+    width: 104.39px;
+    height: 63.55px;
+    border-radius: 3.47px;
+    overflow: hidden;
+}
+.latest__blog-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.latest__blog-info{
+    width: calc(100% - 114.59px);
+}
+.latest__blog-info h5{
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+    margin-bottom: 8.02px;
+}
+.latest__blog-info p{
+    font-size: 10.37px;
+    line-height: 12.96px;
+    letter-spacing: 0.16px;
+    color: #B6B6B6;
+    margin-bottom: 0px;
+}
+.loader-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+.loader {
+    width: 38px;
+    height:38px;
+    border: 5px solid #B6B6B6;
+    border-top: 5px solid #000000;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg);}
+    100% { transform: rotate(360deg);}
+}
